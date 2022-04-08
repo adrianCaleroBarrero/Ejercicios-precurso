@@ -1,0 +1,186 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    background-color: #a8dadc;
+}
+
+
+.rosco {
+    width: 840px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.timer {
+    width: 90px;
+    height: 50px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 2px solid #1d3557;
+    background-color: #457b9d;
+    color: #f1faee;
+    border-radius: 7px;
+}
+
+li {
+    list-style: none;
+    border: 2px solid #1d3557;
+    background-color: #457b9d;
+    color: #f1faee;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions {
+    margin-top: 80px;
+}
+
+.welcome {
+    width: 600px;
+}
+
+.play {
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+li, .welcome, .play, .timer, .inputsQuestion, .placeholder {
+    font-family: cursive;
+}
+
+@keyframes green-circle {
+    from {background-color: #457b9d; border: 2px solid #1d3557;}
+    to {background-color: #12da7c; border: 2px outset #1b4332;}
+}
+
+.turnGreen {
+    animation-name: green-circle;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes red-circle {
+    from {background-color: #457b9d; border: 2px solid #1d3557;}
+    to {background-color: #b9352b; border: 2px outset #690b0b;} 
+}
+
+.turnRed {
+    animation-name: red-circle;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.focusLetter {
+    background-color: #457b9d; 
+    border: 2px solid #0d2444;
+}
+
+.inputsQuestion{
+  width: 90px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #5bb3db;
+}
+
+.placeholder{
+  height: 34px;
+  width: 140px;
+  border-radius: 8px;
+}
+
+.a {
+    transform: translateY(-300px);
+  }
+  .b {
+    transform: rotate(13.33deg) translateY(-300px) rotate(-13.33deg);
+  }
+  .c {
+    transform: rotate(26.66deg) translateY(-300px) rotate(-26.66deg);
+  }
+  .d {
+    transform: rotate(39.99deg) translateY(-300px) rotate(-39.99deg);
+  }
+  .e {
+    transform: rotate(53.32deg) translateY(-300px) rotate(-53.32deg);
+  }
+  .f {
+    transform: rotate(66.65deg) translateY(-300px) rotate(-66.65deg);
+  }
+  .g {
+    transform: rotate(79.98deg) translateY(-300px) rotate(-79.98deg);
+  }
+  .h {
+    transform: rotate(93.31deg) translateY(-300px) rotate(-93.31deg);
+  }
+  .i {
+    transform: rotate(106.64deg) translateY(-300px) rotate(-106.64deg);
+  }
+  .j {
+    transform: rotate(119.97deg) translateY(-300px) rotate(-119.97deg);
+  }
+  .k {
+    transform: rotate(133.3deg) translateY(-300px) rotate(-133.3deg);
+  }
+  .l {
+    transform: rotate(146.63deg) translateY(-300px) rotate(-146.63deg);
+  }
+  .m {
+    transform: rotate(159.96deg) translateY(-300px) rotate(-159.96deg);
+  }
+  .n {
+    transform: rotate(173.29deg) translateY(-300px) rotate(-173.29deg);
+  }
+  
+  .ñ {
+    transform: rotate(186.62deg) translateY(-300px) rotate(-186.62deg);
+  }
+  
+  .o {
+    transform: rotate(199.95deg) translateY(-300px) rotate(-199.95deg);
+  }
+  
+  .p {
+    transform: rotate(213.28deg) translateY(-300px) rotate(-213.28deg);
+  }
+  .q {
+    transform: rotate(226.61deg) translateY(-300px) rotate(-226.61deg);
+  }
+  .r {
+    transform: rotate(239.94deg) translateY(-300px) rotate(-239.94deg);
+  }
+  .s {
+    transform: rotate(253.27deg) translateY(-300px) rotate(-253.27deg);
+  }
+  .t {
+    transform: rotate(266.6deg) translateY(-300px) rotate(-266.6deg);
+  }
+  .u {
+    transform: rotate(279.93deg) translateY(-300px) rotate(-279.93deg);
+  }
+  .v {
+    transform: rotate(293.26deg) translateY(-300px) rotate(-293.26deg);
+  }
+  .w {
+    transform: rotate(306.59deg) translateY(-300px) rotate(-306.59deg);
+  }
+  .x {
+    transform: rotate(319.92deg) translateY(-300px) rotate(-319.92deg);
+  }
+  .y {
+    transform: rotate(333.25deg) translateY(-300px) rotate(-333.25deg);
+  }
+  .z {
+    transform: rotate(346.58deg) translateY(-300px) rotate(-346.58deg);
+  }
